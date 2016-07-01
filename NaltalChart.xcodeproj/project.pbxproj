@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8419AC8B1CC9BEAD00643568 /* DownPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8419AC8A1CC9BEAD00643568 /* DownPicker.m */; };
+		842430F41CD83EDF00714E90 /* TavChartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842430F21CD83EDE00714E90 /* TavChartController.m */; };
+		842430F51CD83EDF00714E90 /* TavChartController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842430F31CD83EDF00714E90 /* TavChartController.xib */; };
+		842430FE1CD8626100714E90 /* TavAspectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842430FC1CD8626100714E90 /* TavAspectController.m */; };
+		842430FF1CD8626200714E90 /* TavAspectController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842430FD1CD8626100714E90 /* TavAspectController.xib */; };
+		842431031CD868DA00714E90 /* TavProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842431011CD868DA00714E90 /* TavProfileController.m */; };
+		842431041CD868DA00714E90 /* TavProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842431021CD868DA00714E90 /* TavProfileController.xib */; };
+		842431081CD8690F00714E90 /* TavPurposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842431061CD8690F00714E90 /* TavPurposeController.m */; };
+		842431091CD8690F00714E90 /* TavPurposeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842431071CD8690F00714E90 /* TavPurposeController.xib */; };
+		842D06681CC594A300927CBD /* NatalParamControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842D06671CC594A300927CBD /* NatalParamControllerViewController.m */; };
+		84355B141CD9A30E00011A69 /* Claregate Astrology 3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84355B131CD9A30E00011A69 /* Claregate Astrology 3.ttf */; };
+		845B5AA81CC474A1004F57EE /* nViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845B5AA71CC474A1004F57EE /* nViewController.m */; };
+		845C3BB41CDAD97700A26725 /* aspects.txt in Resources */ = {isa = PBXBuildFile; fileRef = 845C3BB31CDAD97700A26725 /* aspects.txt */; };
+		845FD2501CDAF01D002193A5 /* purpose.txt in Resources */ = {isa = PBXBuildFile; fileRef = 845FD24F1CDAF01D002193A5 /* purpose.txt */; };
+		845FD2521CDBBB81002193A5 /* arrays.xml in Resources */ = {isa = PBXBuildFile; fileRef = 845FD2511CDBBB80002193A5 /* arrays.xml */; };
+		846D73561CC9C97700B977DE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 846D73551CC9C97700B977DE /* libsqlite3.0.dylib */; };
+		8474995D1CD466AE00EAA1B1 /* ChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8474995C1CD466AE00EAA1B1 /* ChartViewController.m */; };
+		847499631CD7BC2B00EAA1B1 /* ChartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847499621CD7BC2B00EAA1B1 /* ChartViewController.xib */; };
+		849BAB301CC446930036B5E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BAB2F1CC446930036B5E3 /* main.m */; };
+		849BAB331CC446930036B5E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BAB321CC446930036B5E3 /* AppDelegate.m */; };
+		849BAB361CC446930036B5E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BAB351CC446930036B5E3 /* ViewController.m */; };
+		849BAB391CC446940036B5E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849BAB371CC446930036B5E3 /* Main.storyboard */; };
+		849BAB3B1CC446940036B5E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849BAB3A1CC446940036B5E3 /* Images.xcassets */; };
+		849BAB3E1CC446940036B5E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849BAB3C1CC446940036B5E3 /* LaunchScreen.xib */; };
+		849BAB4A1CC446940036B5E3 /* NaltalChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849BAB491CC446940036B5E3 /* NaltalChartTests.m */; };
+		84CD9BF61CC9E0E100E96F42 /* uicheckbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD9BF01CC9E0E100E96F42 /* uicheckbox_checked.png */; };
+		84CD9BF71CC9E0E100E96F42 /* uicheckbox_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD9BF11CC9E0E100E96F42 /* uicheckbox_checked@2x.png */; };
+		84CD9BF81CC9E0E100E96F42 /* uicheckbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD9BF21CC9E0E100E96F42 /* uicheckbox_unchecked.png */; };
+		84CD9BF91CC9E0E100E96F42 /* uicheckbox_unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CD9BF31CC9E0E100E96F42 /* uicheckbox_unchecked@2x.png */; };
+		84CD9BFA1CC9E0E100E96F42 /* UICheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CD9BF51CC9E0E100E96F42 /* UICheckbox.m */; };
+		84DB11D71CD1C76C00D797B6 /* BorderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB11D61CD1C76C00D797B6 /* BorderButton.m */; };
+		84DB11DA1CD1D03E00D797B6 /* BorderVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB11D91CD1D03E00D797B6 /* BorderVIew.m */; };
+		84E7FBB21CCB268500AF9FC3 /* natal.db in Resources */ = {isa = PBXBuildFile; fileRef = 84E7FBB11CCB268400AF9FC3 /* natal.db */; };
+		84E7FBC41CCD7B6000AF9FC3 /* UIColor+NHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7FBB81CCD7B6000AF9FC3 /* UIColor+NHExtension.m */; };
+		84E7FBC51CCD7B6000AF9FC3 /* UILabel+Boldify.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7FBBA1CCD7B6000AF9FC3 /* UILabel+Boldify.m */; };
+		84E7FBC61CCD7B6000AF9FC3 /* UIView+NHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7FBBC1CCD7B6000AF9FC3 /* UIView+NHExtension.m */; };
+		84E7FBC71CCD7B6000AF9FC3 /* NHAutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7FBC11CCD7B6000AF9FC3 /* NHAutoCompleteTextField.m */; };
+		84FE20211CC6FF2F001C76F7 /* underLintTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FE20201CC6FF2F001C76F7 /* underLintTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849BAB441CC446940036B5E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849BAB221CC446920036B5E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849BAB291CC446920036B5E3;
+			remoteInfo = NaltalChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8419AC891CC9BEAD00643568 /* DownPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownPicker.h; sourceTree = "<group>"; };
+		8419AC8A1CC9BEAD00643568 /* DownPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownPicker.m; sourceTree = "<group>"; };
+		842430F11CD83EDD00714E90 /* TavChartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TavChartController.h; path = TabGroup/TavChartController.h; sourceTree = "<group>"; };
+		842430F21CD83EDE00714E90 /* TavChartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TavChartController.m; path = TabGroup/TavChartController.m; sourceTree = "<group>"; };
+		842430F31CD83EDF00714E90 /* TavChartController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TavChartController.xib; path = TabGroup/TavChartController.xib; sourceTree = "<group>"; };
+		842430FB1CD8626100714E90 /* TavAspectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TavAspectController.h; sourceTree = "<group>"; };
+		842430FC1CD8626100714E90 /* TavAspectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TavAspectController.m; sourceTree = "<group>"; };
+		842430FD1CD8626100714E90 /* TavAspectController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TavAspectController.xib; sourceTree = "<group>"; };
+		842431001CD868DA00714E90 /* TavProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TavProfileController.h; path = TabGroup/TavProfileController.h; sourceTree = "<group>"; };
+		842431011CD868DA00714E90 /* TavProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TavProfileController.m; path = TabGroup/TavProfileController.m; sourceTree = "<group>"; };
+		842431021CD868DA00714E90 /* TavProfileController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TavProfileController.xib; path = TabGroup/TavProfileController.xib; sourceTree = "<group>"; };
+		842431051CD8690F00714E90 /* TavPurposeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TavPurposeController.h; path = TabGroup/TavPurposeController.h; sourceTree = "<group>"; };
+		842431061CD8690F00714E90 /* TavPurposeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TavPurposeController.m; path = TabGroup/TavPurposeController.m; sourceTree = "<group>"; };
+		842431071CD8690F00714E90 /* TavPurposeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TavPurposeController.xib; path = TabGroup/TavPurposeController.xib; sourceTree = "<group>"; };
+		842D06661CC594A300927CBD /* NatalParamControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NatalParamControllerViewController.h; sourceTree = "<group>"; };
+		842D06671CC594A300927CBD /* NatalParamControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NatalParamControllerViewController.m; sourceTree = "<group>"; };
+		84355B131CD9A30E00011A69 /* Claregate Astrology 3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Claregate Astrology 3.ttf"; sourceTree = "<group>"; };
+		845B5AA61CC474A1004F57EE /* nViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nViewController.h; sourceTree = "<group>"; };
+		845B5AA71CC474A1004F57EE /* nViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nViewController.m; sourceTree = "<group>"; };
+		845C3BB31CDAD97700A26725 /* aspects.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aspects.txt; sourceTree = "<group>"; };
+		845FD24F1CDAF01D002193A5 /* purpose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = purpose.txt; sourceTree = "<group>"; };
+		845FD2511CDBBB80002193A5 /* arrays.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = arrays.xml; sourceTree = "<group>"; };
+		846D73551CC9C97700B977DE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8474995B1CD466AE00EAA1B1 /* ChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartViewController.h; sourceTree = "<group>"; };
+		8474995C1CD466AE00EAA1B1 /* ChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartViewController.m; sourceTree = "<group>"; };
+		847499621CD7BC2B00EAA1B1 /* ChartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChartViewController.xib; sourceTree = "<group>"; };
+		849BAB2A1CC446920036B5E3 /* NaltalChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaltalChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BAB2E1CC446930036B5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849BAB2F1CC446930036B5E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849BAB311CC446930036B5E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849BAB321CC446930036B5E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849BAB341CC446930036B5E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849BAB351CC446930036B5E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		849BAB381CC446930036B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849BAB3A1CC446940036B5E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		849BAB3D1CC446940036B5E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849BAB431CC446940036B5E3 /* NaltalChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaltalChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849BAB481CC446940036B5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849BAB491CC446940036B5E3 /* NaltalChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaltalChartTests.m; sourceTree = "<group>"; };
+		84CD9BF01CC9E0E100E96F42 /* uicheckbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uicheckbox_checked.png; path = UICheckbox/uicheckbox_checked.png; sourceTree = "<group>"; };
+		84CD9BF11CC9E0E100E96F42 /* uicheckbox_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uicheckbox_checked@2x.png"; path = "UICheckbox/uicheckbox_checked@2x.png"; sourceTree = "<group>"; };
+		84CD9BF21CC9E0E100E96F42 /* uicheckbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = uicheckbox_unchecked.png; path = UICheckbox/uicheckbox_unchecked.png; sourceTree = "<group>"; };
+		84CD9BF31CC9E0E100E96F42 /* uicheckbox_unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "uicheckbox_unchecked@2x.png"; path = "UICheckbox/uicheckbox_unchecked@2x.png"; sourceTree = "<group>"; };
+		84CD9BF41CC9E0E100E96F42 /* UICheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UICheckbox.h; path = UICheckbox/UICheckbox.h; sourceTree = "<group>"; };
+		84CD9BF51CC9E0E100E96F42 /* UICheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UICheckbox.m; path = UICheckbox/UICheckbox.m; sourceTree = "<group>"; };
+		84DB11D51CD1C76C00D797B6 /* BorderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderButton.h; sourceTree = "<group>"; };
+		84DB11D61CD1C76C00D797B6 /* BorderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderButton.m; sourceTree = "<group>"; };
+		84DB11D81CD1D03E00D797B6 /* BorderVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorderVIew.h; sourceTree = "<group>"; };
+		84DB11D91CD1D03E00D797B6 /* BorderVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorderVIew.m; sourceTree = "<group>"; };
+		84E7FBB11CCB268400AF9FC3 /* natal.db */ = {isa = PBXFileReference; lastKnownFileType = file; name = natal.db; path = fonts/natal.db; sourceTree = "<group>"; };
+		84E7FBB71CCD7B6000AF9FC3 /* UIColor+NHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NHExtension.h"; sourceTree = "<group>"; };
+		84E7FBB81CCD7B6000AF9FC3 /* UIColor+NHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NHExtension.m"; sourceTree = "<group>"; };
+		84E7FBB91CCD7B6000AF9FC3 /* UILabel+Boldify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Boldify.h"; sourceTree = "<group>"; };
+		84E7FBBA1CCD7B6000AF9FC3 /* UILabel+Boldify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Boldify.m"; sourceTree = "<group>"; };
+		84E7FBBB1CCD7B6000AF9FC3 /* UIView+NHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NHExtension.h"; sourceTree = "<group>"; };
+		84E7FBBC1CCD7B6000AF9FC3 /* UIView+NHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NHExtension.m"; sourceTree = "<group>"; };
+		84E7FBBE1CCD7B6000AF9FC3 /* NHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHConstants.h; sourceTree = "<group>"; };
+		84E7FBC01CCD7B6000AF9FC3 /* NHAutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAutoCompleteTextField.h; sourceTree = "<group>"; };
+		84E7FBC11CCD7B6000AF9FC3 /* NHAutoCompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAutoCompleteTextField.m; sourceTree = "<group>"; };
+		84E7FBC21CCD7B6000AF9FC3 /* NHMainHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHMainHeader.h; sourceTree = "<group>"; };
+		84FE201F1CC6FF2F001C76F7 /* underLintTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = underLintTextView.h; sourceTree = "<group>"; };
+		84FE20201CC6FF2F001C76F7 /* underLintTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = underLintTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849BAB271CC446920036B5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846D73561CC9C97700B977DE /* libsqlite3.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BAB401CC446940036B5E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842430F01CD83E0600714E90 /* tabGroup */ = {
+			isa = PBXGroup;
+			children = (
+				842430F11CD83EDD00714E90 /* TavChartController.h */,
+				842430F21CD83EDE00714E90 /* TavChartController.m */,
+				842430F31CD83EDF00714E90 /* TavChartController.xib */,
+				842430FB1CD8626100714E90 /* TavAspectController.h */,
+				842430FC1CD8626100714E90 /* TavAspectController.m */,
+				842430FD1CD8626100714E90 /* TavAspectController.xib */,
+				842431001CD868DA00714E90 /* TavProfileController.h */,
+				842431011CD868DA00714E90 /* TavProfileController.m */,
+				842431021CD868DA00714E90 /* TavProfileController.xib */,
+				842431051CD8690F00714E90 /* TavPurposeController.h */,
+				842431061CD8690F00714E90 /* TavPurposeController.m */,
+				842431071CD8690F00714E90 /* TavPurposeController.xib */,
+			);
+			name = tabGroup;
+			sourceTree = "<group>";
+		};
+		8485CE621CC94A85009DFDD5 /* UICheckbox */ = {
+			isa = PBXGroup;
+			children = (
+				84CD9BF01CC9E0E100E96F42 /* uicheckbox_checked.png */,
+				84CD9BF11CC9E0E100E96F42 /* uicheckbox_checked@2x.png */,
+				84CD9BF21CC9E0E100E96F42 /* uicheckbox_unchecked.png */,
+				84CD9BF31CC9E0E100E96F42 /* uicheckbox_unchecked@2x.png */,
+				84CD9BF41CC9E0E100E96F42 /* UICheckbox.h */,
+				84CD9BF51CC9E0E100E96F42 /* UICheckbox.m */,
+			);
+			name = UICheckbox;
+			sourceTree = "<group>";
+		};
+		849BAB211CC446920036B5E3 = {
+			isa = PBXGroup;
+			children = (
+				846D73551CC9C97700B977DE /* libsqlite3.0.dylib */,
+				849BAB2C1CC446920036B5E3 /* NaltalChart */,
+				849BAB461CC446940036B5E3 /* NaltalChartTests */,
+				849BAB2B1CC446920036B5E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849BAB2B1CC446920036B5E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849BAB2A1CC446920036B5E3 /* NaltalChart.app */,
+				849BAB431CC446940036B5E3 /* NaltalChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849BAB2C1CC446920036B5E3 /* NaltalChart */ = {
+			isa = PBXGroup;
+			children = (
+				842430F01CD83E0600714E90 /* tabGroup */,
+				84E7FBB61CCD7B6000AF9FC3 /* Extensions */,
+				84E7FBBD1CCD7B6000AF9FC3 /* NHClasses */,
+				84E7FBB01CCB265B00AF9FC3 /* Resources */,
+				8485CE621CC94A85009DFDD5 /* UICheckbox */,
+				849BAB311CC446930036B5E3 /* AppDelegate.h */,
+				849BAB321CC446930036B5E3 /* AppDelegate.m */,
+				8419AC8A1CC9BEAD00643568 /* DownPicker.m */,
+				8419AC891CC9BEAD00643568 /* DownPicker.h */,
+				849BAB341CC446930036B5E3 /* ViewController.h */,
+				849BAB351CC446930036B5E3 /* ViewController.m */,
+				849BAB371CC446930036B5E3 /* Main.storyboard */,
+				845B5AA61CC474A1004F57EE /* nViewController.h */,
+				845B5AA71CC474A1004F57EE /* nViewController.m */,
+				849BAB3A1CC446940036B5E3 /* Images.xcassets */,
+				849BAB3C1CC446940036B5E3 /* LaunchScreen.xib */,
+				842D06661CC594A300927CBD /* NatalParamControllerViewController.h */,
+				842D06671CC594A300927CBD /* NatalParamControllerViewController.m */,
+				849BAB2D1CC446930036B5E3 /* Supporting Files */,
+				84FE201F1CC6FF2F001C76F7 /* underLintTextView.h */,
+				84FE20201CC6FF2F001C76F7 /* underLintTextView.m */,
+				84DB11D51CD1C76C00D797B6 /* BorderButton.h */,
+				84DB11D61CD1C76C00D797B6 /* BorderButton.m */,
+				84DB11D81CD1D03E00D797B6 /* BorderVIew.h */,
+				84DB11D91CD1D03E00D797B6 /* BorderVIew.m */,
+				8474995B1CD466AE00EAA1B1 /* ChartViewController.h */,
+				8474995C1CD466AE00EAA1B1 /* ChartViewController.m */,
+				847499621CD7BC2B00EAA1B1 /* ChartViewController.xib */,
+			);
+			path = NaltalChart;
+			sourceTree = "<group>";
+		};
+		849BAB2D1CC446930036B5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BAB2E1CC446930036B5E3 /* Info.plist */,
+				849BAB2F1CC446930036B5E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849BAB461CC446940036B5E3 /* NaltalChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				849BAB491CC446940036B5E3 /* NaltalChartTests.m */,
+				849BAB471CC446940036B5E3 /* Supporting Files */,
+			);
+			path = NaltalChartTests;
+			sourceTree = "<group>";
+		};
+		849BAB471CC446940036B5E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849BAB481CC446940036B5E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E7FBB01CCB265B00AF9FC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				845FD2511CDBBB80002193A5 /* arrays.xml */,
+				845FD24F1CDAF01D002193A5 /* purpose.txt */,
+				845C3BB31CDAD97700A26725 /* aspects.txt */,
+				84355B131CD9A30E00011A69 /* Claregate Astrology 3.ttf */,
+				84E7FBB11CCB268400AF9FC3 /* natal.db */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84E7FBB61CCD7B6000AF9FC3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				84E7FBB71CCD7B6000AF9FC3 /* UIColor+NHExtension.h */,
+				84E7FBB81CCD7B6000AF9FC3 /* UIColor+NHExtension.m */,
+				84E7FBB91CCD7B6000AF9FC3 /* UILabel+Boldify.h */,
+				84E7FBBA1CCD7B6000AF9FC3 /* UILabel+Boldify.m */,
+				84E7FBBB1CCD7B6000AF9FC3 /* UIView+NHExtension.h */,
+				84E7FBBC1CCD7B6000AF9FC3 /* UIView+NHExtension.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84E7FBBD1CCD7B6000AF9FC3 /* NHClasses */ = {
+			isa = PBXGroup;
+			children = (
+				84E7FBBE1CCD7B6000AF9FC3 /* NHConstants.h */,
+				84E7FBBF1CCD7B6000AF9FC3 /* NHHelper */,
+				84E7FBC21CCD7B6000AF9FC3 /* NHMainHeader.h */,
+			);
+			path = NHClasses;
+			sourceTree = "<group>";
+		};
+		84E7FBBF1CCD7B6000AF9FC3 /* NHHelper */ = {
+			isa = PBXGroup;
+			children = (
+				84E7FBC01CCD7B6000AF9FC3 /* NHAutoCompleteTextField.h */,
+				84E7FBC11CCD7B6000AF9FC3 /* NHAutoCompleteTextField.m */,
+			);
+			path = NHHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849BAB291CC446920036B5E3 /* NaltalChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BAB4D1CC446940036B5E3 /* Build configuration list for PBXNativeTarget "NaltalChart" */;
+			buildPhases = (
+				849BAB261CC446920036B5E3 /* Sources */,
+				849BAB271CC446920036B5E3 /* Frameworks */,
+				849BAB281CC446920036B5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaltalChart;
+			productName = NaltalChart;
+			productReference = 849BAB2A1CC446920036B5E3 /* NaltalChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849BAB421CC446940036B5E3 /* NaltalChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849BAB501CC446940036B5E3 /* Build configuration list for PBXNativeTarget "NaltalChartTests" */;
+			buildPhases = (
+				849BAB3F1CC446940036B5E3 /* Sources */,
+				849BAB401CC446940036B5E3 /* Frameworks */,
+				849BAB411CC446940036B5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849BAB451CC446940036B5E3 /* PBXTargetDependency */,
+			);
+			name = NaltalChartTests;
+			productName = NaltalChartTests;
+			productReference = 849BAB431CC446940036B5E3 /* NaltalChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849BAB221CC446920036B5E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = KangKuk;
+				TargetAttributes = {
+					849BAB291CC446920036B5E3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					849BAB421CC446940036B5E3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 849BAB291CC446920036B5E3;
+					};
+				};
+			};
+			buildConfigurationList = 849BAB251CC446920036B5E3 /* Build configuration list for PBXProject "NaltalChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849BAB211CC446920036B5E3;
+			productRefGroup = 849BAB2B1CC446920036B5E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849BAB291CC446920036B5E3 /* NaltalChart */,
+				849BAB421CC446940036B5E3 /* NaltalChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849BAB281CC446920036B5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD9BF71CC9E0E100E96F42 /* uicheckbox_checked@2x.png in Resources */,
+				842431041CD868DA00714E90 /* TavProfileController.xib in Resources */,
+				84355B141CD9A30E00011A69 /* Claregate Astrology 3.ttf in Resources */,
+				84CD9BF91CC9E0E100E96F42 /* uicheckbox_unchecked@2x.png in Resources */,
+				84CD9BF81CC9E0E100E96F42 /* uicheckbox_unchecked.png in Resources */,
+				842430FF1CD8626200714E90 /* TavAspectController.xib in Resources */,
+				84CD9BF61CC9E0E100E96F42 /* uicheckbox_checked.png in Resources */,
+				845FD2501CDAF01D002193A5 /* purpose.txt in Resources */,
+				847499631CD7BC2B00EAA1B1 /* ChartViewController.xib in Resources */,
+				842431091CD8690F00714E90 /* TavPurposeController.xib in Resources */,
+				845C3BB41CDAD97700A26725 /* aspects.txt in Resources */,
+				84E7FBB21CCB268500AF9FC3 /* natal.db in Resources */,
+				849BAB391CC446940036B5E3 /* Main.storyboard in Resources */,
+				849BAB3E1CC446940036B5E3 /* LaunchScreen.xib in Resources */,
+				845FD2521CDBBB81002193A5 /* arrays.xml in Resources */,
+				842430F51CD83EDF00714E90 /* TavChartController.xib in Resources */,
+				849BAB3B1CC446940036B5E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BAB411CC446940036B5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849BAB261CC446920036B5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842430F41CD83EDF00714E90 /* TavChartController.m in Sources */,
+				849BAB361CC446930036B5E3 /* ViewController.m in Sources */,
+				84FE20211CC6FF2F001C76F7 /* underLintTextView.m in Sources */,
+				842430FE1CD8626100714E90 /* TavAspectController.m in Sources */,
+				845B5AA81CC474A1004F57EE /* nViewController.m in Sources */,
+				842431031CD868DA00714E90 /* TavProfileController.m in Sources */,
+				84DB11D71CD1C76C00D797B6 /* BorderButton.m in Sources */,
+				849BAB331CC446930036B5E3 /* AppDelegate.m in Sources */,
+				84CD9BFA1CC9E0E100E96F42 /* UICheckbox.m in Sources */,
+				84E7FBC51CCD7B6000AF9FC3 /* UILabel+Boldify.m in Sources */,
+				84DB11DA1CD1D03E00D797B6 /* BorderVIew.m in Sources */,
+				84E7FBC61CCD7B6000AF9FC3 /* UIView+NHExtension.m in Sources */,
+				84E7FBC71CCD7B6000AF9FC3 /* NHAutoCompleteTextField.m in Sources */,
+				8474995D1CD466AE00EAA1B1 /* ChartViewController.m in Sources */,
+				84E7FBC41CCD7B6000AF9FC3 /* UIColor+NHExtension.m in Sources */,
+				842431081CD8690F00714E90 /* TavPurposeController.m in Sources */,
+				8419AC8B1CC9BEAD00643568 /* DownPicker.m in Sources */,
+				842D06681CC594A300927CBD /* NatalParamControllerViewController.m in Sources */,
+				849BAB301CC446930036B5E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849BAB3F1CC446940036B5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849BAB4A1CC446940036B5E3 /* NaltalChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849BAB451CC446940036B5E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849BAB291CC446920036B5E3 /* NaltalChart */;
+			targetProxy = 849BAB441CC446940036B5E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849BAB371CC446930036B5E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BAB381CC446930036B5E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849BAB3C1CC446940036B5E3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849BAB3D1CC446940036B5E3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849BAB4B1CC446940036B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		849BAB4C1CC446940036B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849BAB4E1CC446940036B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaltalChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		849BAB4F1CC446940036B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NaltalChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849BAB511CC446940036B5E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaltalChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaltalChart.app/NaltalChart";
+			};
+			name = Debug;
+		};
+		849BAB521CC446940036B5E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NaltalChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaltalChart.app/NaltalChart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849BAB251CC446920036B5E3 /* Build configuration list for PBXProject "NaltalChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BAB4B1CC446940036B5E3 /* Debug */,
+				849BAB4C1CC446940036B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849BAB4D1CC446940036B5E3 /* Build configuration list for PBXNativeTarget "NaltalChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BAB4E1CC446940036B5E3 /* Debug */,
+				849BAB4F1CC446940036B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849BAB501CC446940036B5E3 /* Build configuration list for PBXNativeTarget "NaltalChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849BAB511CC446940036B5E3 /* Debug */,
+				849BAB521CC446940036B5E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849BAB221CC446920036B5E3 /* Project object */;
+}
